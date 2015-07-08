@@ -9,13 +9,13 @@
     </header>
 
     <ul>
-      {{#each tasks}}
-        {{> task}}
+      {{#each mynames}}
+        {{> myname}}
       {{/each}}
     </ul>
   </div>
 </body>
 
-<template name="task">
-  <li>{{text}}</li>
+<template name="myname">
+  <li>{{propername}}</li>
 </template>
